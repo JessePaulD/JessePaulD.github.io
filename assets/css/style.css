@@ -3,6 +3,13 @@
 	padding: 0px;
 }
 
+body{
+background-color: #ffffff;
+opacity: 0.8;
+background-image:  linear-gradient(#000000 1.9000000000000001px, transparent 1.9000000000000001px), linear-gradient(to right, #252525 1.9000000000000001px, #ffffff 1.9000000000000001px);
+background-size: 38px 38px;
+}
+
 a{
 	font-family: "Basteleur-Bold";
 	text-decoration: none;
@@ -24,10 +31,15 @@ a{
 
 }
 
+.menu-container{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
 
-.item{
-	
+
+
 }
+
 h1{
 	text-align: center;
 	font-family: "Basteleur-Bold";
@@ -50,7 +62,7 @@ h6,h7{
 
 }
 
-.text{
+text{
 	font-family: "Basteleur-Bold";
 	font-size:1em;
 }
