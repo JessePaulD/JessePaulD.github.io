@@ -37,6 +37,7 @@ a{
 	
 }
 h1{
+	text-align: center;
 	font-family: "Basteleur-Bold";
 	font-size:3em ;
 
@@ -62,8 +63,13 @@ h6,h7{
 	font-size:1em;
 }
 
-h1{
+title{
  	font-size:10em ;
+  	text-align: center;
+ }
+
+p{
+ 	font-size:5em ;
   	text-align: center;
  }
 
