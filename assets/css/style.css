@@ -77,8 +77,12 @@ text{
 }
 
 main-title{
- 	font-size:12em ;
-  	text-align: center;
+ 	font-size:15em ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:0.5em;
+
 
  }
 
