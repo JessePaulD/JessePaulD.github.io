@@ -64,6 +64,39 @@ h1{
 	font-size:3em ;
 	text-align: center;
 	border: 5px;
+	filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+	animation: fillToOutline 8s ease-in-out infinite;
+}
+
+@keyframes fillToOutline {
+    0% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+    
+    50% {
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    100% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+}
+@keyframes outlineExpand {
+    
+   0% {
+        -webkit-text-stroke: 0px black;
+    }
+   
+    100% {
+        -webkit-text-stroke: 100px black;
+    }
+ }
+ 
 
 
 }
@@ -88,10 +121,25 @@ main-title{
     position: fixed;
     bottom: 250px;
     width: 100%;
-
-animation: outlineExpand 1s linear infinite;
+animation: fillToOutline 8s ease-in-out infinite;
 }
 
+@keyframes fillToOutline {
+    0% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+    
+    50% {
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    100% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+}
 @keyframes outlineExpand {
     
    0% {
@@ -107,12 +155,18 @@ title{
  	font-size:10em ;
   	text-align: center;
   	border: 1vw;
- }
+}
 
 p{
  	font-size:2em ;
+ 	padding: 0 20%;
   	text-align: center;
-  	outline: 20px white;
+  	letter-spacing: -0.01em;
+;
+	filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+
  }
 
 h2023,h2024,h2025{
@@ -139,3 +193,4 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
