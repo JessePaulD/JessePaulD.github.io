@@ -10,21 +10,47 @@ background-size: 38px 38px;
 opacity: 1;
 }
 
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 5px;
+  position: center;
+  width: 100%;
+}
+
+.gallery img {
+  width: 97%;
+  height: auto;
+    position: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px white;
+}
+
+.desc{
+    font-family: "Basteleur-Bold";
+    font-size:1.5em ;
+    text-align: center;
+    filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 a{
 	font-family: "Basteleur-Bold";
 	text-decoration: none;
-/*	color: black;*/
+    color: black;
 	text-align: center;
 	margin: 0px;
 	position: block;
 	border: 5px;
-
-
-}
-
-.container-image{
-	height: 80vw; 
-
 }
 
 .menu-link{
@@ -61,13 +87,26 @@ li:hover {
 
 h1{
 	font-family: "Basteleur-Bold";
-	font-size:3em ;
+	font-size:3.5em ;
 	text-align: center;
 	border: 5px;
 	filter: drop-shadow(0 0 5px white)
            drop-shadow(0 0 5px white)
            drop-shadow(0 0 5px white);
 	animation: fillToOutline 8s ease-in-out infinite;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: "Basteleur-Bold";
+    font-size:3.5em ;
+    text-align: center;
+    border: 5px;
+    filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+    margin-top: 10px;
 }
 
 @keyframes fillToOutline {
@@ -97,16 +136,6 @@ h1{
     }
  }
  
-
-
-}
-
-h2,h3,h4,h5,h6,h7{
-	font-family: "Basteleur-Bold";
-	font-size:3em ;
-	border: 5px;
-
-}
 
 
 text{
@@ -167,30 +196,5 @@ p{
            drop-shadow(0 0 5px white)
            drop-shadow(0 0 5px white)
 
+
  }
-
-h2023,h2024,h2025{
-	 	font-size:3em ;
-	 	text-align: center;
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 100%;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
