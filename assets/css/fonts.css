@@ -1,19 +1,16 @@
 @font-face {
-    font-family: Avara-BoldItalic;
-    src: url(/assets/fonts.css/Avara-BoldItalic.woff2) format('.woff2');
-    src: url(/assets/fonts.css/Avara-BoldItalic.woff) format('.woff');;
-};
+    font-family: "AvaraBoldItalic";
+    src: url(/assets/fonts.css/AvaraBoldItalic.woff2) format(woff2),
+            url(/assets/fonts.css/AvaraBoldItalic.woff) format(woff);
+
+@font-face {
+    font-family: "AvaraBlack";
+    src: url(/assets/fonts.css/AvaraBlack.woff2) format(woff2),
+         url(/assets/fonts.css/AvaraBlack.woff) format(woff);
 }
 
 @font-face {
-    font-family: Avara-Bold;
-    src: url(/assets/fonts.css/Avara-Bold.woff2) format('.woff2');
-    src: url(/assets/fonts.css/Avara-Bold.woff) format('.woff');;
+    font-family: "AvaraBold";
+    src: url(/assets/fonts.css/AvaraBold.woff2) format(woff2),
+         url(/assets/fonts.css/AvaraBold.woff) format(woff);
 }
-
-@font-face {
-    font-family: Avara-Black;
-    src: url(/assets/fonts.css/Avara-Black.woff2) format('.woff2');
-    src: url(/assets/fonts.css/Avara-Black.woff) format('.woff');
-}
-

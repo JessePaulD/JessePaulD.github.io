@@ -21,11 +21,11 @@ opacity: 1;
 .gallery img {
   width: 97%;
   height: auto;
-    position: center;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
+
 
 .gallery img:hover {
   transform: scale(1.02);
@@ -33,7 +33,7 @@ opacity: 1;
 }
 
 .desc{
-    font-family: Avara-Bold;
+    font-family: "AvaraBold";
     font-size:1.5em ;
     text-align: center;
     filter: drop-shadow(0 0 5px white)
@@ -44,7 +44,7 @@ opacity: 1;
 }
 
 a{
-	font-family: Avara-Bold;
+	font-family: "AvaraBold";
 	text-decoration: none;
     color: black;
 	text-align: center;
@@ -99,15 +99,13 @@ li {
     -webkit-text-stroke: 1px black;
     transition: -webkit-text-stroke 0.3s ease;
 }
-
 li:hover {
     -webkit-text-stroke: 8px black; 
 }
 
-}
 
 h1{
-	font-family: Avara-Black;
+	font-family: "AvaraBlack";
 	font-size:3.5em ;
 	text-align: center;
 	border: 5px;
@@ -120,7 +118,7 @@ h1{
 }
 
 h2{
-    font-family: Avara-Black;
+    font-family: "AvaraBlack";
     font-size:3.5em ;
     text-align: center;
     border: 5px;
@@ -147,26 +145,23 @@ h2{
     }
 }
 @keyframes outlineExpand {
-    
-   0% {
+    0% {
         -webkit-text-stroke: 0px black;
     }
    
     100% {
         -webkit-text-stroke: 100px black;
     }
- }
-
 }
 
 
 text{
     text-align: center;
-	font-family: Avara-Black;
+	font-family: "AvaraBold";
 }
 
 main-title{
-    font-family: Avara-Black;
+    font-family: "AvaraBlack";
     text-align: center;
  	font-size:15em ;
 	display: flex;
@@ -179,24 +174,22 @@ main-title{
 
 
 title{
-    font-family: Avara-Black;
+    font-family: "AvaraBlack";
     text-align: center;
  	font-size:10em ;
   	text-align: center;
   	border: 1vw;
 }
 
-p{
-    font-family: Avara-Bold;
- 	font-size:2em ;
- 	padding: 0 20%;
-  	text-align: center;
-  	letter-spacing: -0.01em;
-;
-	filter: drop-shadow(0 0 5px white)
+p {
+    font-family: "AvaraBold";
+    font-size: 2em;
+    padding: 0 20%;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    filter: drop-shadow(0 0 5px white)
            drop-shadow(0 0 5px white)
            drop-shadow(0 0 5px white)
-
-
- }
+}
 
