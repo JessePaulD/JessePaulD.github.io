@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Avara-BoldItalic;
+    src: url(/assets/fonts.css/Avara-BoldItalic.woff2) format('.woff2');
+    src: url(/assets/fonts.css/Avara-BoldItalic.woff) format('.woff');;
+};
+}
+
+@font-face {
+    font-family: Avara-Bold;
+    src: url(/assets/fonts.css/Avara-Bold.woff2) format('.woff2');
+    src: url(/assets/fonts.css/Avara-Bold.woff) format('.woff');;
+}
+
+@font-face {
+    font-family: Avara-Black;
+    src: url(/assets/fonts.css/Avara-Black.woff2) format('.woff2');
+    src: url(/assets/fonts.css/Avara-Black.woff) format('.woff');
+}
+

@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+background-color: #ffffff;
+background-image:  linear-gradient(#000000 1.9000000000000001px, transparent 1.9000000000000001px), linear-gradient(to right, #252525 1.9000000000000001px, #ffffff 1.9000000000000001px);
+background-size: 38px 38px;
+opacity: 1;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 5px;
+  position: center;
+  width: 100%;
+}
+
+.gallery img {
+  width: 97%;
+  height: auto;
+    position: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px white;
+}
+
+.desc{
+    font-family: Avara-Bold;
+    font-size:1.5em ;
+    text-align: center;
+    filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a{
+	font-family: Avara-Bold;
+	text-decoration: none;
+    color: black;
+	text-align: center;
+	margin: 0px;
+	position: block;
+	border: 5px;
+}
+
+.menu-link{
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size:3rem ;
+
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  position: center;
+  width: 100%;
+}
+
+.gallery2 img {
+  width: 97%;
+  height: auto;
+    position: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.gallery2 img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px white;
+}
+
+li {
+    -webkit-text-stroke: 1px black;
+    transition: -webkit-text-stroke 0.3s ease;
+}
+
+li:hover {
+    -webkit-text-stroke: 8px black; 
+}
+
+}
+
+h1{
+	font-family: Avara-Black;
+	font-size:3.5em ;
+	text-align: center;
+	border: 5px;
+	filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+	animation: fillToOutline 8s ease-in-out infinite;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: Avara-Black;
+    font-size:3.5em ;
+    text-align: center;
+    border: 5px;
+    filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white);
+    margin-top: 10px;
+}
+
+@keyframes fillToOutline {
+    0% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+    
+    50% {
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    100% {
+        color: black;
+        -webkit-text-stroke: 0px black;
+    }
+}
+@keyframes outlineExpand {
+    
+   0% {
+        -webkit-text-stroke: 0px black;
+    }
+   
+    100% {
+        -webkit-text-stroke: 100px black;
+    }
+ }
+
+}
+
+
+text{
+    text-align: center;
+	font-family: Avara-Black;
+}
+
+main-title{
+    font-family: Avara-Black;
+    text-align: center;
+ 	font-size:15em ;
+	display: flex;
+	justify-content: space-around;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 250px;
+    width: 100%;
+}
+
+
+title{
+    font-family: Avara-Black;
+    text-align: center;
+ 	font-size:10em ;
+  	text-align: center;
+  	border: 1vw;
+}
+
+p{
+    font-family: Avara-Bold;
+ 	font-size:2em ;
+ 	padding: 0 20%;
+  	text-align: center;
+  	letter-spacing: -0.01em;
+;
+	filter: drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+           drop-shadow(0 0 5px white)
+
+
+ }
+
