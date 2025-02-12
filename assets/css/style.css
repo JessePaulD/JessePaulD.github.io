@@ -24,6 +24,8 @@ opacity: 1;
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 10px;
+  border-radius: 8px
+
 }
 
 
@@ -196,7 +198,7 @@ p {
 
 
 
-/*/ Spiel am Anfang../*/
+/*/ Spiel.../*/
 input[type="radio"]{
   display:none;
 }
